@@ -34,7 +34,7 @@ The environment is now in a state where it is actively collecting data and evalu
 
 The PoC follows a simple, linear data flow: infrastructure to ingest → platform to analyze → detection layer → telemetry source. Each layer was built and validated before moving to the next.
 
-![Microsoft Sentinel PoC architecture — Resource Group to Log Analytics Workspace to Microsoft Sentinel to Data Connectors](./assets/architecture.png)
+![Microsoft Sentinel PoC architecture — Resource Group to Log Analytics Workspace to Microsoft Sentinel to Data Connectors](architecture.png)
 
 - **Resource Group (RG-Sentinel-PoC)** — the logical container scoping all PoC resources to East US, isolating this work from any other subscription activity.
 - **Log Analytics Workspace (LAW-Sentinel-CloudScale)** — the data platform underpinning Sentinel; stores all ingested logs for 90 days on a Pay-as-you-go pricing model.
